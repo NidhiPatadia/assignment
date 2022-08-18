@@ -1,0 +1,5 @@
+specbee_assignment.timezone_admin_settings_form:
+  title: 'Timezone Settings'
+  parent: user.admin_index
+  description: 'Configure Timezone via this setting form to show in a block.'
+  route_name: specbee_assignment.timezone_admin_settings_form

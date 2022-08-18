@@ -1,0 +1,19 @@
+<div>
+  <div>
+    {% if output.country|render %}
+     <div>
+       <b>{{ 'Country: '|t }}</b>{{ output.country }}
+     </div>
+    {% endif %}
+    {% if output.city|render %}
+     <div>
+       <b>{{ 'City: '|t }}</b>{{ output.city }}
+     </div>
+    {% endif %}
+    {% if output.time|render %}
+     <div>
+       <b>{{ 'Time: '|t }}</b>{{ output.time }}
+     </div>
+    {% endif %}
+  </div>
+</div>
