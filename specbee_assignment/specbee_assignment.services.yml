@@ -3,5 +3,3 @@ services:
     class: Drupal\specbee_assignment\Manager\TimeZoneManager
     options:
       no_cache: TRUE
-
-
